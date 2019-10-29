@@ -1,2 +1,2 @@
 # All_Links
-Site that will contain links and descriptions of user
+A website that that contains social media links, contact info and a short bio of the user.
