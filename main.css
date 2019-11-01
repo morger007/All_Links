@@ -1,0 +1,34 @@
+body{
+    font-family: "Arial";
+    background: #6c6f7f;
+}
+h1{
+    background: #592941;
+    color: #f9eae1;
+    border-radius: 10px;
+}
+h2{
+    background:#f9eae1 ;
+    border-radius: 10px;
+    color:#313e50 ;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px #5c6672;
+}
+a:hover{
+    text-shadow: none;
+    color: #baa2c7;
+}
+a:visited{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    font-size: large;
+}
+li{
+    margin: 10px 0px;
+
+}
