@@ -1,15 +1,31 @@
 body {
     height: 100%;
-    font-family: "Arial", monospace;
-    background: #6c6f7f;
+    font-family: "MS PGothic", monospace;
     display:flex;
     flex-direction:column;
+    background-image: url("egypt2b.jpg");
 }
-
+h1{
+    background:white ;
+    color:black ;
+    text-align: center;
+    margin: 10% 5% 0% 5%;
+    border-radius: 3px;
+}
 h2 {
     background:#f9eae1 ;
     border-radius: 10px;
     color:#313e50 ;
+}
+
+p{
+    background:white ;
+    color:black ;
+    margin: 3% 5% 0% 5%;
+    text-align: justify;
+    padding: 2%;
+    font-size: 25px;
+    border-radius: 3px;
 }
 
 /* Links */
@@ -48,4 +64,23 @@ footer {
     left: 50%;
     top: 100%;
 }
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.l_side{
+    float:left;
+    width:50%;
+    box-sizing: border-box;
+}
+.r_side {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+.video{
+    margin: 1% 30% 0% 30%;
+}
+
 
