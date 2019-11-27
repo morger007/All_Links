@@ -79,7 +79,7 @@ footer {
     width: 50%;
     box-sizing: border-box;
 }
-.video{
+#video{
     position: relative;
     width: 100%;
     align-items: center;
@@ -88,7 +88,6 @@ footer {
     margin-left: auto;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 
