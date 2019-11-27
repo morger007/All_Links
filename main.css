@@ -5,6 +5,7 @@ body {
     flex-direction:column;
     background-image: url("egypt2b.jpg");
 }
+
 h1{
     background:white ;
     color:black ;
@@ -12,13 +13,12 @@ h1{
     margin: 10% 5% 0% 5%;
     border-radius: 3px;
 }
+
 h2 {
     background:#f9eae1 ;
     border-radius: 10px;
     color:#313e50 ;
 }
-
-/* Links */
 
 p{
     background:white ;
@@ -29,6 +29,9 @@ p{
     font-size: 25px;
     border-radius: 3px;
 }
+
+/* Links */
+
 a {
     color: white;
     text-decoration: none;
@@ -63,20 +66,24 @@ footer {
     left: 50%;
     top: 100%;
 }
+
 .container{
     width: 100%;
     margin: 0 auto;
 }
+
 .l_side{
     float:left;
     width:50%;
     box-sizing: border-box;
 }
+
 .r_side {
     float: right;
     width: 50%;
     box-sizing: border-box;
 }
+
 .video{
     margin: 1% 30% 0% 30%;
 }
