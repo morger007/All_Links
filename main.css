@@ -11,25 +11,25 @@ h2 {
     border-radius: 10px;
     color:#313e50 ;
 }
+
+/* Links */
+
 a {
     color: white;
     text-decoration: none;
     text-shadow: 3px 3px #5c6672;
 }
+
 a:hover {
     text-shadow: none;
     color: #baa2c7;
 }
+
 a:visited {
     text-decoration: none;
 }
-ul {
-    list-style: none;
-    font-size: large;
-}
-li {
-    margin: 10px 0;
-}
+
+/* Header/Footer */
 
 header {
     background: #592941;
@@ -41,33 +41,11 @@ header {
     padding-left: 4px;
 }
 
-textarea {
-    overflow: hidden;
-    overflow-wrap: break-word;
-    resize: horizontal;
-    height: 228px;
-    width: 1500px;
-    margin-left: 5px;
-    margin-right: 30px;
-    margin-bottom: 5px;
-
-}
 footer {
     height: 40px;
     position: absolute;
-    margin-top:auto;
+    margin:auto;
     left: 50%;
     top: 100%;
 }
-#loginForm {
-    margin: 5px;
-    position: absolute;
-    right: 32px;
-    top: 35px;
-}
-#sendTextButton {
-    width: 50px;
-    height: 25px;
-    border-radius: 12px;
 
-}
