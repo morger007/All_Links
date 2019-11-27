@@ -89,6 +89,14 @@ footer {
     box-sizing: border-box;
 }
 .video{
-    margin: 1% 30% 0% 30%;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
