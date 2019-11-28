@@ -96,8 +96,9 @@ footer {
 }
 
 #myCanvas {
-    width: 900px;
-    height: 900px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
 
 }
 #square_body {
@@ -107,7 +108,19 @@ footer {
 }
 
 #updateButton {
-
+    width: 150px;
+    height: 50px;
+    background-color: lightgrey;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family:"MS PGothic", monospace;
+    display: inline-block;
+    font-size: 22px;
+    top: 525px;
+    left: 275px;
+    position: relative;
 
 }
 
