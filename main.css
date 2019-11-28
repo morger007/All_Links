@@ -6,7 +6,7 @@ body {
     background-image: url("egypt2b.jpg");
 }
 
-h1{
+h1 {
     background:white ;
     color:black ;
     text-align: center;
@@ -20,7 +20,7 @@ h2 {
     color:#313e50 ;
 }
 
-p{
+p {
     background:white ;
     color:black ;
     margin: 3% 5% 0% 5%;
@@ -67,12 +67,12 @@ footer {
     top: 100%;
 }
 
-.container{
+.container {
     width: 100%;
     margin: 0 auto;
 }
 
-.l_side{
+.l_side {
     float:left;
     width:50%;
     box-sizing: border-box;
@@ -84,7 +84,7 @@ footer {
     box-sizing: border-box;
 }
 
-#video{
+#video {
     position: relative;
     width: 100%;
     align-items: center;
@@ -95,3 +95,37 @@ footer {
     box-sizing: border-box;
 }
 
+#myCanvas {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+}
+#square_body {
+    height: 100%;
+    font-family: "MS PGothic", monospace;
+    background-image: url("vihik.jpg");
+}
+
+#updateButton {
+    width: 150px;
+    height: 50px;
+    background-color: lightgrey;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family:"MS PGothic", monospace;
+    display: inline-block;
+    font-size: 22px;
+    top: 525px;
+    left: 275px;
+    position: relative;
+
+}
+
+#triangle_body {
+    height: 100%;
+    font-family: "MS PGothic", monospace;
+    background-image: url("vihik.jpg");
+}
