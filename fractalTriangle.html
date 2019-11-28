@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fractal 1</title>
+    <title>Fractal Triangle</title>
 </head>
     <link href="main.css" rel="stylesheet"/>
 
@@ -15,19 +15,21 @@
             $("#footer").load("footer.html");
         });
     </script>
-<body>
+<body id="triangle_body">
     <div id="header"></div>
-    <canvas id="myCanvas" width="900" height="900"></canvas>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
     <button id="updateButton" onclick="update()">next</button>
     <!--
     drawSquareFractal({x: 300, y: 300}, {x: 400, y: 300}, {x: 400, y: 400}, {x: 300, y: 400}, 2, counter);
     -->
     <script>
+        var x = 200
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
         var counter = 1;
 
-
+        ctx.fillStyle = "black";
+        ctx.strokeRect(x, 200, 300, 300)
         function drawLine(p0, p1, color="black") {
             ctx.beginPath();
             ctx.moveTo(p0.x, p0.y);
