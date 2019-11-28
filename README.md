@@ -1,2 +1,2 @@
-# All_Links
-A website that contains social media links, contact info and a short bio of the user.
+# Fractal
+A website that contains info about fractals and also provides an example of different-shape fractals.
