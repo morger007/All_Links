@@ -7,6 +7,7 @@ body {
     font-size: 32px;
 }
 
+
 h1{
     background: #3a093e;
     color:white ;
@@ -23,6 +24,7 @@ h2 {
     margin: 22px 4% 15px 4%;
     border-radius: 4px;
 }
+
 
 p{
     font-size: 32px;
@@ -77,12 +79,12 @@ footer {
     top: 100%;
 }
 
-.container{
+.container {
     width: 100%;
     margin: 0 auto;
 }
 
-.l_side{
+.l_side {
     float:left;
     width:60%;
     box-sizing: border-box;
@@ -94,7 +96,7 @@ footer {
     box-sizing: border-box;
 }
 
-#video{
+#video {
     position: relative;
     height: 400px;
     align-items: center;
@@ -104,6 +106,7 @@ footer {
     box-sizing: border-box;
     border-radius: 5px;
 }
+
 #header{
     position:absolute;
     left:0;
@@ -117,10 +120,12 @@ footer {
     margin: -10px 0px 0px 0px;
     border-radius: 0px 0px 10px 10px;
 }
+
 #navBar{
     height: 75px;
     margin: 0px 10px 0px 20px;
 }
+
 .navButton{
     font-size: 28px;
     display: inline-flex;
@@ -133,11 +138,13 @@ footer {
     font-weight: bolder;
     box-shadow: 3px 3px #000000;
 }
+
 .slideshowContainer{
     position: relative;
     margin: 0px 4% 0% 4%;
     height: 500px;
 }
+
 .slideshow{
     box-sizing: border-box;
     position: absolute;
@@ -149,4 +156,37 @@ footer {
     object-fit: cover;
 }
 
+#myCanvas {
+    position: absolute;
+    width: 500px;
+    height: 500px;
 
+}
+#square_body {
+    height: 100%;
+    font-family: "MS PGothic", monospace;
+    background-image: url("vihik.jpg");
+}
+
+#updateButton {
+    width: 150px;
+    height: 50px;
+    background-color: lightgrey;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family:"MS PGothic", monospace;
+    display: inline-block;
+    font-size: 22px;
+    top: 525px;
+    left: 275px;
+    position: relative;
+
+}
+
+#triangle_body {
+    height: 100%;
+    font-family: "MS PGothic", monospace;
+    background-image: url("vihik.jpg");
+}
