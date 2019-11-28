@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Fractal Square</title>
 </head>
 <link href="main.css" rel="stylesheet"/>
 
@@ -15,17 +15,19 @@
         $("#footer").load("footer.html");
     });
 </script>
-<body>
+<body id="square_body">
     <div id="header"></div>
     <canvas id="myCanvas" width="900" height="900"></canvas>
     <button id="updateButton" onclick="update()">next</button>
 
     <script>
-
+        var x = 200;
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
         var counter = 0;
 
+        ctx.fillStyle = "black";
+        ctx.strokeRect(x, 200, 300, 300)
         function drawLine(p0, p1, color="black") {
             ctx.beginPath();
             ctx.moveTo(p0.x, p0.y);
