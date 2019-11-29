@@ -26,6 +26,7 @@
     </div>
 </div>
     <div class = "container">
+        <div id = leftRightcontainer>
         <div class = "l_side">
             <h2>
                 Fractals... What are they?
@@ -43,21 +44,7 @@
                 <img class="slideshow" src="http://paulbourke.net/fractals/googleearth/spain4.jpg">
                 <img class="slideshow" src="http://paulbourke.net/fractals/googleearth/derby.jpg">
                 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-                <script>
-                    var slideIndex = 0;
-                    carousel();
-                    function carousel() {
-                        var i;
-                        var x = document.getElementsByClassName("slideshow");
-                        for (i = 0; i < x.length; i++) {
-                            x[i].style.opacity= '0';
-                        }
-                        slideIndex++;
-                        if (slideIndex > x.length) {slideIndex = 1}
-                        x[slideIndex-1].style.opacity= '1';
-                        setTimeout(carousel, 2000); // Change image every 2 seconds
-                    }
-                </script>
+                <script type="text/javascript" src = Slideshow.js></script>
             </div>
         </div>
         <div class = "r_side">
@@ -65,10 +52,20 @@
                 Fractals!
             </h2>
             <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/WFtTdf3I6Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <h2>Self-similarity</h2>
 
+            <P>
+                What does self-similarity mean? If you look carefully at a fern leaf, you will notice that every little leaf - part of the bigger one - has the same shape as the whole fern leaf. You can say that the fern leaf is self-similar. The same is with fractals: you can magnify them many times and after every step you will see the same shape, which is characteristic of that particular fractal. Take a look at the pictures to the left... can you see it?
+            </P>
+        </div>
+        </div>
+        <div id="mnSet">
+            <h1>
+                The Mandelbrot Set
+            </h1>
         </div>
     </div>
     <div id="footer"></div>
-
 </body>
 </html>
