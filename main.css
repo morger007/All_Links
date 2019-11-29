@@ -84,6 +84,7 @@ footer {
 }
 
 .container {
+    position: relative;
     width: 100%;
     margin-top: 50px;
 }
@@ -100,7 +101,7 @@ footer {
     box-sizing: border-box;
 }
 
-#video {
+.video {
     position: relative;
     height: 400px;
     max-width: 92%;
@@ -198,11 +199,21 @@ footer {
     font-family: "MS PGothic", monospace;
     background-image: url("vihik.jpg");
 }
-#leftRightcontainer{
-    float: top;
-    display: flex;
-
+.leftRightcontainer{
+    position: sticky;
+    top: 70px;
 }
-#mnSet{
-    margin: 100px 30px 0px 30px;
+.mnSet{
+    position: relative;
+    margin: 100px -8px -8px;
+    height: 5000px;
+}
+#mnGif{
+    position: sticky;
+    top: -100px;
+    width: 100%;
+}
+.secondLefRightCont{
+    position: sticky;
+    top: 70px;
 }
