@@ -4,35 +4,39 @@ body {
     display:flex;
     flex-direction:column;
     background-image: url("egypt2b.jpg");
-    font-size: 32px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
 h1{
-    background: #3a093e;
-    color:white ;
+    font-size: 34px;
+    background:white ;
+    color:black ;
     text-align: center;
-    margin: 10px 4% 0% 4%;
+    margin: 8px 0% 0% 0%;
     border-radius: 4px;
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 34px;
     background:white ;
     color:black ;
     text-align: center;
-    margin: 22px 4% 15px 4%;
+    margin: 18px 30px 12px 30px;
     border-radius: 4px;
+    padding: 0px;
 }
 
 
 p{
-    font-size: 32px;
+    font-size: 26px;
     background:white ;
     color:black ;
-    margin: 0px 4% 0% 4%;
+    margin: 0px 30px 0% 30px;
     text-align: justify;
-    padding: 2%;
+    padding: 5px;
     border-radius: 4px;
 }
 
@@ -99,16 +103,20 @@ footer {
 #video {
     position: relative;
     height: 400px;
+    max-width: 92%;
     align-items: center;
-    width: 92%;
-    margin: 0px 4% 0% 4%;
+    margin: 0px 30px 0% 30px;
     padding: 0;
     box-sizing: border-box;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 #header{
-    position:absolute;
+    z-index:1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     left:0;
     right:0;
     background: #38009d;
@@ -117,7 +125,7 @@ footer {
     -webkit-box-shadow: 0px 8px 8px 1px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 8px 8px 1px rgba(0,0,0,0.3);
     box-shadow: 0px 8px 8px 1px rgba(0,0,0,0.3);
-    margin: -10px 0px 60px 0px;
+    margin: -10px 0px -50px 0px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -141,7 +149,7 @@ footer {
 
 .slideshowContainer{
     position: relative;
-    margin: 0px 4% 0% 4%;
+    margin: 0px 30px 0% 30px;
     height: 500px;
 }
 
@@ -189,4 +197,12 @@ footer {
     height: 100%;
     font-family: "MS PGothic", monospace;
     background-image: url("vihik.jpg");
+}
+#leftRightcontainer{
+    float: top;
+    display: flex;
+
+}
+#mnSet{
+    margin: 100px 30px 0px 30px;
 }
