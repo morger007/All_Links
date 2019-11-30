@@ -3,14 +3,13 @@ body {
     font-family: "MS PGothic", monospace;
     display:flex;
     flex-direction:column;
-    background-image: url("egypt2b.jpg");
+    background-image: url("pictures/egypt2b.jpg");
     font-size: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-
-h1{
+h1 {
     font-size: 34px;
     background:white ;
     color:black ;
@@ -29,9 +28,8 @@ h2 {
     padding: 0px;
 }
 
-
-p{
-    font-size: 26px;
+p {
+    font-size: 20px;
     background:white ;
     color:black ;
     margin: 0px 30px 0% 30px;
@@ -315,3 +313,4 @@ footer {
 .video_fractal {
     width: 500px;
     height: 500px;
+}
