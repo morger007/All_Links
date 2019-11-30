@@ -1,7 +1,7 @@
 var fractalGif = document.getElementsByClassName("mnSet")[0];
 fractalGif.style.opacity = (0).toString();
 $(window).on('scroll', function() {
-    var firstText = document.getElementsByClassName("leftRightContainer")[0]
+    var firstText = document.getElementsByClassName("leftRightContainer")[0];
     var s = $(window).scrollTop(),
         d = $(document).height(),
         c = $(window).height();
