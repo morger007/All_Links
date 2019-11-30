@@ -3,13 +3,14 @@ body {
     font-family: "MS PGothic", monospace;
     display:flex;
     flex-direction:column;
-    background-image: url("pictures/egypt2b.jpg");
+    background-image: url("egypt2b.jpg");
     font-size: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-h1 {
+
+h1{
     font-size: 34px;
     background:white ;
     color:black ;
@@ -28,8 +29,9 @@ h2 {
     padding: 0px;
 }
 
-p {
-    font-size: 20px;
+
+p{
+    font-size: 26px;
     background:white ;
     color:black ;
     margin: 0px 30px 0% 30px;
@@ -220,7 +222,7 @@ footer {
 .mnSet {
     position: relative;
     margin: 100px -8px -8px;
-    height: 5000px;
+    height: 3000px;
 }
 
 #mnGif {
@@ -232,6 +234,22 @@ footer {
 .secondLefRightCont {
     position: sticky;
     top: 70px;
+}
+
+.video2 {
+    position: relative;
+    height: 530px;
+    width: 94.2%;
+    align-items: center;
+    margin: 0px 30px 0% 30px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#firstMand{
+    margin: 0px 0px 0px 30px;
+    max-width: 92%;
+    border-radius: 4px;
 }
 
 /* ABOUT & ADDITION */
