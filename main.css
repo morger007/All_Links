@@ -193,7 +193,7 @@ footer {
     transition: 0s
 }
 
-/* CSS TO INDEX */
+/* INDEX */
 
 .slideshowContainer{
     position: relative;
@@ -232,4 +232,69 @@ footer {
 .secondLefRightCont{
     position: sticky;
     top: 70px;
+}
+
+/* ABOUT & ADDITION */
+
+.about_container {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.about_l {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.fractal-video {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.about_r {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.links {
+    font-size: 26px;
+    background:white ;
+    color: red ;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#name {
+    font-size: 26px;
+    width: 640px;
+    background:white ;
+    color: black ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name {
+    font-size: 26px;
+    width: 360px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.video_names {
+    font-size: 26px;
+    width: 500px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.video_fractal {
+    width: 500px;
+    height: 500px;
 }
