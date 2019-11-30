@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
 }
 
-h1{
+h1 {
     font-size: 34px;
     background:white ;
     color:black ;
@@ -28,7 +28,7 @@ h2 {
     padding: 0px;
 }
 
-p{
+p {
     font-size: 20px;
     background:white ;
     color:black ;
@@ -96,7 +96,7 @@ a:visited {
 
 /* HEADER & FOOTER */
 
-header{
+header {
     z-index:1;
     position: -webkit-sticky;
     position: sticky;
@@ -113,12 +113,12 @@ header{
     border-radius: 0px 0px 10px 10px;
 }
 
-#navBar{
+#navBar {
     height: 75px;
     margin: 0px 10px 0px 20px;
 }
 
-.navButton{
+.navButton {
     font-size: 20px;
     display: inline-flex;
     text-align: justify;
@@ -167,7 +167,7 @@ footer {
     left: 275px;
 }
 
-.updateButton:hover{
+.updateButton:hover {
     background:#fff;
     box-shadow:0px 2px 10px 5px #97B1BF;
     color:#000;
@@ -195,13 +195,13 @@ footer {
 
 /* INDEX */
 
-.slideshowContainer{
+.slideshowContainer {
     position: relative;
     margin: 0px 30px 0% 30px;
     height: 500px;
 }
 
-.slideshow{
+.slideshow {
     box-sizing: border-box;
     position: absolute;
     border: solid white;
@@ -212,24 +212,24 @@ footer {
     object-fit: cover;
 }
 
-.leftRightContainer{
+.leftRightContainer {
     position: sticky;
     top: 70px;
 }
 
-.mnSet{
+.mnSet {
     position: relative;
     margin: 100px -8px -8px;
     height: 5000px;
 }
 
-#mnGif{
+#mnGif {
     position: sticky;
     top: -100px;
     width: 100%;
 }
 
-.secondLefRightCont{
+.secondLefRightCont {
     position: sticky;
     top: 70px;
 }
@@ -297,4 +297,3 @@ footer {
 .video_fractal {
     width: 500px;
     height: 500px;
-}
