@@ -10,23 +10,17 @@
 <script>
     $(function()
     {
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
+        $("#header").load("pages/header.html");
+        $("#footer").load("pages/footer.html");
     });
 </script>
 
 <meta charset="UTF-8">
 <title>Fractal Demo</title>
 <body>
-<div id = "header">
-    <div id="navBar">
-        <a class = 'navButton' href="index.html">Home</a>
-        <a class = 'navButton' href="fractalSquare.html">Sierpiński Carpet</a>
-        <a class = 'navButton' href="fractalTriangle.html">Sierpiński triangle</a>
-    </div>
-</div>
+<div id="header"></div>
     <div class = "container">
-        <div class = "leftRightcontainer">
+        <div class = "leftRightContainer">
         <div class = "l_side">
             <h2>
                 Fractals... What are they?
@@ -44,7 +38,7 @@
                 <img class="slideshow" src="http://paulbourke.net/fractals/googleearth/spain4.jpg">
                 <img class="slideshow" src="http://paulbourke.net/fractals/googleearth/derby.jpg">
                 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-                <script type="text/javascript" src = Slideshow.js></script>
+                <script src = "scripts/Slideshow.js"></script>
             </div>
         </div>
         <div class = "r_side">
@@ -62,24 +56,9 @@
         </div>
         <div class="mnSet">
             <script>
-                    $(window).on('scroll', function() {
-                        var firstText = document.getElementsByClassName("leftRightcontainer")[0]
-                        var fractalGif = document.getElementsByClassName("mnSet")[0];
-                        var secondText = document.getElementsByClassName("secondLefRightCont")[0]
-                        var s = $(window).scrollTop(),
-                            d = $(document).height(),
-                            c = $(window).height();
-                        var scrollP = (s / (d - c));
-                        if(0.002 < scrollP){
-                            fractalGif.style.opacity = (0.2 + (scrollP*4)).toString();
-                            firstText.style.opacity = (0.2+(1-scrollP*7 )).toString();
-                        }
-                        if(0.0001 > scrollP){
-                            fractalGif.style.opacity = (0).toString();
-                        }
-                    })
+                    $(window).on('scroll', onScroll())
             </script>
-
+            <script src="scripts/indexOnScroll.js"></script>
             <img id="mnGif" src="https://media.giphy.com/media/FAx2omaFgceZ2/giphy.gif">
         </div>
         <div class="secondLefRightCont">

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fractal Triangle</title>
+</head>
+
+    <link href="../main.css" rel="stylesheet"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function()
+        {
+            $("#header").load("header2.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+<body id="triangle_body">
+    <div id="header"></div>
+    <canvas id="myCanvas" width="500" height="501"></canvas>
+    <button class="updateButton" onclick="update()">Next</button>
+    <script src="../scripts/triangle.js"></script>
+    <div id="footer"></div>
+</body>
+</html>
