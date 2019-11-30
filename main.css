@@ -4,43 +4,58 @@ body {
     display:flex;
     flex-direction:column;
     background-image: url("egypt2b.jpg");
+    font-size: 32px;
 }
 
-h1 {
-    background:white ;
-    color:black ;
+
+h1{
+    background: #3a093e;
+    color:white ;
     text-align: center;
-    margin: 10% 5% 0% 5%;
-    border-radius: 3px;
+    margin: 10px 4% 0% 4%;
+    border-radius: 4px;
 }
 
 h2 {
-    background:#f9eae1 ;
-    border-radius: 10px;
-    color:#313e50 ;
-}
-
-p {
+    font-size: 38px;
     background:white ;
     color:black ;
-    margin: 3% 5% 0% 5%;
+    text-align: center;
+    margin: 22px 4% 15px 4%;
+    border-radius: 4px;
+}
+
+
+p{
+    font-size: 32px;
+    background:white ;
+    color:black ;
+    margin: 0px 4% 0% 4%;
     text-align: justify;
     padding: 2%;
-    font-size: 25px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 /* Links */
 
 a {
-    color: white;
+    position: inherit;
+    font-size: 38px;
+    color: White;
+    text-align: center;
+    border-radius: 4px;
     text-decoration: none;
-    text-shadow: 3px 3px #5c6672;
+    background: #6100ff;
+    padding: 5px;
+    margin: 0px 4% 0% 4%;
+    display:block;
 }
 
 a:hover {
     text-shadow: none;
-    color: #baa2c7;
+    color: #ffffff;
+    background: #5400e1;
+    box-shadow: none;
 }
 
 a:visited {
@@ -54,51 +69,106 @@ header {
     color: #f9eae1;
     border-radius: 12px;
     height: 80px;
-    margin: 20px;
-    padding-top: 1px;
-    padding-left: 4px;
 }
 
 footer {
     height: 40px;
     position: absolute;
-    margin-top:auto;
+    margin-top: auto;
     left: 50%;
     top: 100%;
 }
 
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .l_side {
     float:left;
-    width:50%;
+    width:60%;
     box-sizing: border-box;
 }
 
 .r_side {
     float: right;
-    width: 50%;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.about_p {
+    float:left;
+    width:50%;
     box-sizing: border-box;
 }
 
 #video {
     position: relative;
-    width: 100%;
+    height: 400px;
     align-items: center;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 92%;
+    margin: 0px 4% 0% 4%;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#header{
+    position:absolute;
+    left:0;
+    right:0;
+    background: #38009d;
+    padding: 0;
+    height: 70px;
+    -webkit-box-shadow: 0px 8px 8px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 8px 8px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 8px 8px 1px rgba(0,0,0,0.3);
+    margin: -10px 0px 60px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#navBar{
+    height: 75px;
+    margin: 0px 10px 0px 20px;
+}
+
+.navButton{
+    font-size: 28px;
+    display: inline-flex;
+    text-align: justify;
+    width: 240px;
+    height: 28px;
+    padding: 8px 5px 10px 8px;
+    margin: 10px 10px 10px 20px;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    box-shadow: 3px 3px #000000;
+    z-index: 1;
+}
+
+.slideshowContainer{
+    position: relative;
+    margin: 0px 4% 0% 4%;
+    height: 500px;
+}
+
+.slideshow{
+    box-sizing: border-box;
+    position: absolute;
+    border: solid white;
+    border-radius: 4px;
+    transition: opacity 0.5s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #myCanvas {
+    margin-top: 120px;
     position: absolute;
     width: 500px;
     height: 500px;
+    z-index: 0;
 
 }
 #square_body {
@@ -108,20 +178,33 @@ footer {
 }
 
 #updateButton {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    cursor:pointer;
+    border-radius: 6px;
+    border:1px solid #38009d;
     width: 150px;
     height: 50px;
-    background-color: lightgrey;
-    border: none;
+    background-color: #5400e1;
+    transition: top .15s linear;
+    text-shadow: 0px 1px 0px #38009d;
+    box-shadow: : 3px 3px #38009d;
     padding: 10px 5px;
     text-align: center;
     text-decoration: none;
     font-family:"MS PGothic", monospace;
-    display: inline-block;
     font-size: 22px;
-    top: 525px;
+    top: 645px;
     left: 275px;
-    position: relative;
-
+}
+.updateButton:hover {
+    background-color:#5400e1;
+}
+#updateButton:active {
+    position:relative;
+    top:641px;
 }
 
 #triangle_body {
