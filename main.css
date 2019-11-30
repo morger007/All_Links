@@ -236,7 +236,8 @@ footer {
     width: 50%;
     box-sizing: border-box;
 }
-#link {
+
+.links {
     font-size: 26px;
     background:white ;
     color: red ;
@@ -275,7 +276,7 @@ footer {
     font-weight: bold;
     text-align: center;
 }
-#video_fractal {
+.video_fractal {
     width: 500px;
     height: 500px;
 }
