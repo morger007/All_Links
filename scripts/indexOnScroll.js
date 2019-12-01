@@ -13,7 +13,7 @@ $(window).on('scroll', function() {
     if(0.001 > scrollP){
         fractalGif.style.opacity = (0).toString();
     }
-    if(0.73 < scrollP){
-        fractalGif.style.opacity = (1 - (scrollP-0.73)*3).toString();
+    if(0.8 < scrollP){
+        fractalGif.style.opacity = (1 - (scrollP-0.7)*3.5).toString();
     }
 })

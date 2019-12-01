@@ -52,13 +52,13 @@
 
 .mnSet {
     position: relative;
-    margin: 100px -8px -8px;
+    margin: 800px -8px -8px;
     height: 3000px;
 }
 
 #mnGif {
     position: sticky;
-    top: -100px;
+    top: -200px;
     width: 100%;
 }
 
@@ -70,7 +70,7 @@
 .video2 {
     position: relative;
     height: 530px;
-    width: 94.2%;
+    width: 94.7%;
     align-items: center;
     margin: 0px 30px 0% 30px;
     padding: 0;
